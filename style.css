@@ -277,3 +277,6 @@ footer{
 footer > * p {
   color: #fff;
 }
+.address #bold {
+  font-weight: bold;
+}
