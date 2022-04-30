@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand&display=swap');
+
+:root {
+  --title-font: "Pacifico";
+  --content-font: "Quicksand";
+  --menu-bg-color: #60A692 ;
+  --primary-color: #591414;
+  --secondary-color:#60A692;
+  --card-color: #80B8A8;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+span {
+  font-family: var(--content-font);
+  color: var(--primary-color);
+  font-size: 36px;
+}
+h1 {
+  font-family: var(--title-font);
+  color: var(--primary-color);
+  font-size: 70px;
+}
+h2 {
+  font-family: var(--title-font);
+  color: var(--primary-color);
+  font-size: 58px;
+  margin-bottom: 10px;
+}
+h3 {
+  font-family: var(--title-font);
+  color: var(--primary-color);
+  font-size: 44px;
+}
+ p {
+  font-size: 24px;
+  font-family: var(--content-font);
+  color: var(--primary-color);
+}
+
+body{
+  background-image: url(/imgsrc/body.png);
+  background-position: center;
+  background-size: contain;
+}
+
+header {
+  background-color: var(--menu-bg-color);
+  color: #fff;
+  font-family: var(--content-font);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 33px;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+li:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.hero {
+  margin-top: 120px;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+.hero__text {
+  padding: 0 30px;
+  width: 580px;
+}
+.hero__text p {
+  margin-bottom: 28px;
+}
+
+.btn {
+  background-color: var(--menu-bg-color);
+  padding: 20px 70px;
+  border-radius: 8px;
+  font-family: var(--content-font);
+}
+
+.onboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 790px;
+  height: 390px;
+
+}
+.onboard__text {
+  background-color: var(--card-color);
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  box-shadow: 1px 1px 15px var(--card-color);
+  padding: 45px 65px 55px 30px;
+}
+.onboard__content{
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.onboard__content p {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.onboard__content p img {
+  width: 60px;
+}
