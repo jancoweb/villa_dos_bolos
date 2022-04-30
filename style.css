@@ -42,7 +42,7 @@ h3 {
 }
 
 body{
-  background-image: url(/imgsrc/body.png);
+  background-image: url(./imgsrc/body.png);
   background-position: center;
   background-size: contain;
 }
