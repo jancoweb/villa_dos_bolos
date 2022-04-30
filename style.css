@@ -55,6 +55,7 @@ header {
   justify-content: space-around;
   align-items: center;
   width: 100%;
+  font-size: 22px;
 }
 ul {
   list-style: none;
@@ -89,6 +90,9 @@ li:hover {
   padding: 20px 70px;
   border-radius: 8px;
   font-family: var(--content-font);
+}
+.btn:hover {
+  background-color: #4d8575;
 }
 
 .onboard {
@@ -129,11 +133,13 @@ li:hover {
   flex-direction: column;
   align-items: center;
   margin: 120px 0;
+  text-align: center;
 }
 .vitrine__cards {
   display: flex;
   margin: 0 360px;
   gap: 30px;
+  text-align: left;
 }
 .card {
   display: flex;
@@ -163,4 +169,111 @@ li:hover {
 }
 .card__info a img {
   width: 32px;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 120px 0;
+}
+.testimonials__cards {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  text-align: left;
+}
+.testimonials__cards p {
+  margin-top: 34px;
+  padding-right: 50px;
+}
+.testimonials_card_text_content {
+  width: 585px;
+  max-height: 380px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 550px;
+  margin-bottom: 120px;
+}
+.contact > * span {
+  font-weight: bold;
+  font-size: 28px;
+}
+.contact__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+.contact__content_franch .btn {
+  width: 380px;
+}
+.contact__content_franch {
+  border-left: 1px solid var(--menu-bg-color);
+  padding: 30px;
+}
+.contact__content_franch, .contact__content_social {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 50px;
+  width: 450px;
+}
+.contact__content_franch p, .contact__content_social p {
+  text-align: left;
+  font-size: 22px;
+}
+
+.contact__content_social span, .contact__content_franch span{
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+.contact__content_social {
+  padding: 0 30px 100px 30px;
+}
+.contact__content_social > div {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+footer{
+  background-color: var(--menu-bg-color);
+  display: flex;
+  padding: 25px;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo__insta_wpp {
+  display: flex;
+  gap: 70px;
+}
+.footer__logo {
+  width: 200px;
+}
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+}
+.footer__links > div {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+footer > * p {
+  color: #fff;
 }
