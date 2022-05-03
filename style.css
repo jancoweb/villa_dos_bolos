@@ -30,6 +30,9 @@ h2 {
   font-size: 58px;
   margin-bottom: 10px;
 }
+.border {
+  border-left: 1px solid #fff;
+}
 h3 {
   font-family: var(--title-font);
   color: var(--primary-color);
@@ -60,7 +63,7 @@ header {
 ul {
   list-style: none;
   display: flex;
-  gap: 33px;
+  gap: 20px;
 }
 a {
   text-decoration: none;
