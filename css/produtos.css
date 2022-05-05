@@ -1,0 +1,79 @@
+:root {
+  --title-font: "Pacifico";
+  --content-font: "Quicksand";
+  --menu-bg-color: rgb(96, 166, 146) ;
+  --primary-color: #591414;
+  --secondary-color:#60A692;
+  --card-color: #80B8A8;
+}
+.list_selector a {
+  text-decoration: none;
+  color: rgba(96, 166, 146, 0.5);
+  padding: 10px 50px;
+  font-family: var(--title-font);
+  border-bottom: 10px solid rgba(96, 166, 146, 0.5);
+  font-size: 40px;
+}
+.list_selector a:hover {
+  color: rgba(96, 166, 146, 1);
+  border-bottom: 10px solid rgba(96, 166, 146, 1);
+}
+.list_selector a .current {
+  color: rgba(96, 166, 146, 1);
+  border-bottom: 10px solid rgba(96, 166, 146, 1);
+}
+.list_selector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+
+section {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 120px 360px;
+}
+.produto {
+  background-color: var(--card-color);
+  box-shadow: 4px 4px 20px var(--card-color);
+  max-width: 500px;
+  max-height: 155px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.produto:hover {
+  cursor: pointer;
+}
+.produto:hover a {
+  color: #fff;
+}
+.produto img {
+  width: 150px;
+}
+.produto a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 24px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 133px;
+  margin-bottom: 120px;
+}
+.insta, .wpp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.insta span, .wpp span {
+  font-size: 32px;
+}
