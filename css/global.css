@@ -37,9 +37,12 @@ ul {
   display: flex;
   gap: 20px;
 }
-header a, footer a {
+header a, footer a, .hero a {
   text-decoration: none;
   color: #fff;
+}
+.vitrine a, .contact a{
+  text-decoration: none;
 }
 li:hover {
   border-bottom: 1px solid #fff;
@@ -50,6 +53,7 @@ li:hover {
   padding: 20px 70px;
   border-radius: 8px;
   font-family: var(--content-font);
+  color: #fff;
 }
 .btn:hover {
   background-color: #4d8575;
