@@ -105,22 +105,20 @@ li:hover {
   margin: auto;
   width: 790px;
   height: 390px;
-
 }
 .onboard__text {
   background-color: var(--card-color);
   width: 100%;
-  height: 100%;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
-  box-shadow: 1px 1px 15px var(--card-color);
-  padding: 45px 65px 55px 30px;
+  box-shadow: 2px 2px 20px var(--card-color);
+  padding: 45px 65px 45px 30px;
 }
 .onboard__content{
   font-weight: bold;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 20px;
 }
 .onboard__content p {
   display: flex;
@@ -144,6 +142,9 @@ li:hover {
   gap: 30px;
   text-align: left;
 }
+.vitrine * a:hover {
+  color: #fff;
+}
 .card {
   display: flex;
   flex-direction: column;
@@ -152,6 +153,9 @@ li:hover {
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
   background-color: var(--card-color);
+}
+.card__img img {
+  width: 100%;
 }
 .card__info {
   background-color: var(--card-color);
@@ -208,51 +212,40 @@ li:hover {
   height: 550px;
   margin-bottom: 120px;
 }
-.contact > * span {
-  font-weight: bold;
-  font-size: 28px;
-}
 .contact__container {
-  display: flex;
+  display: flex; 
   align-items: center;
   justify-content: center;
-  text-align: left;
-}
-.contact__content_franch .btn {
-  width: 380px;
-}
-.contact__content_franch {
-  border-left: 1px solid var(--menu-bg-color);
-  padding: 30px;
-}
-.contact__content_franch, .contact__content_social {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  gap: 50px;
-  width: 450px;
-}
-.contact__content_franch p, .contact__content_social p {
-  text-align: left;
-  font-size: 22px;
-}
-
-.contact__content_social span, .contact__content_franch span{
-  margin-bottom: 40px;
-  font-weight: bold;
+  margin-left: 150px;
+  gap: 30px;
 }
 .contact__content_social {
-  padding: 0 30px 100px 30px;
-}
-.contact__content_social > div {
+  max-width: 500px;
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 50px;
+  padding: 25px;
+}
+#insta, #wpp {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 20px;
 }
-
+.divisor {
+  border-left: 3px solid var(--card-color);
+  height: 100%;
+}
+.contact__content_franch {
+  max-width: 500px;
+  text-align: left;
+  padding: 25px;
+}
+.contact__content_franch p {
+  margin-bottom: 50px;
+}
 footer{
   background-color: var(--menu-bg-color);
   display: flex;
