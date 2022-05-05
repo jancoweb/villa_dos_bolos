@@ -1,0 +1,35 @@
+:root {
+  --title-font: "Pacifico";
+  --content-font: "Quicksand";
+  --menu-bg-color: #60A692 ;
+  --primary-color: #591414;
+  --secondary-color:#60A692;
+  --card-color: #80B8A8;
+}
+span {
+  font-family: var(--content-font);
+  color: var(--primary-color);
+  font-size: 36px;
+}
+h1 {
+  font-family: var(--title-font);
+  color: var(--primary-color);
+  font-size: 70px;
+}
+h2 {
+  font-family: var(--title-font);
+  color: var(--primary-color);
+  font-size: 58px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-family: var(--title-font);
+  color: var(--primary-color);
+  font-size: 44px;
+}
+ p {
+  font-size: 24px;
+  font-family: var(--content-font);
+  color: var(--primary-color);
+}

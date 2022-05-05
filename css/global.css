@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --title-font: "Pacifico";
+  --content-font: "Quicksand";
+  --menu-bg-color: #60A692 ;
+  --primary-color: #591414;
+  --secondary-color:#60A692;
+  --card-color: #80B8A8;
+}
+body{
+  background-image: url('../imgsrc/body.png');
+  background-position: center;
+  background-size: contain;
+}
+
+header {
+  background-color: var(--menu-bg-color);
+  color: #fff;
+  font-family: var(--content-font);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  font-size: 22px;
+}
+.border {
+  border-left: 1px solid #fff;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+li:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.btn {
+  background-color: var(--menu-bg-color);
+  padding: 20px 70px;
+  border-radius: 8px;
+  font-family: var(--content-font);
+}
+.btn:hover {
+  background-color: #4d8575;
+}
+
+footer{
+  background-color: var(--menu-bg-color);
+  display: flex;
+  padding: 25px;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo__insta_wpp {
+  display: flex;
+  gap: 70px;
+}
+.footer__logo {
+  width: 200px;
+}
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+}
+.footer__links > div {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+footer > * p {
+  color: #fff;
+}
+.address #bold {
+  font-weight: bold;
+}
